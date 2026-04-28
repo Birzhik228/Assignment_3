@@ -46,3 +46,7 @@ Appreciating the practical difference between O(n²) and O(n log n) algorithms
 
 <img width="1842" height="489" alt="image" src="https://github.com/user-attachments/assets/ca0125a5-5a63-4579-8606-604c0a0b03be" />
 
+**E.Reflection Section**
+This assignment helped me understand the significance of the efficiency of an algorithm based on varying input sizes. It became evident that Merge Sort was more efficient than Bubble Sort, especially in dealing with larger inputs due to its O(nlogn) complexity whereas Bubble Sort is inefficient at O(n2).
+
+Moreover, theoretical complexity does not necessarily correspond to actual execution times for several reasons including JVM operations and input data. My major challenge in this assignment was the implementation of Merge Sort recursion and array copying.
