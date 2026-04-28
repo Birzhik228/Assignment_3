@@ -20,6 +20,30 @@ Understanding the change in efficiency due to input data size
 
 Appreciating the practical difference between O(n²) and O(n log n) algorithms
 
+**B. Explanation of the algorithms**
+1. Bubble Sort
+
+It works by comparing pairs of consecutive elements, swapping them if their order is not correct until all the elements are sorted.
+
+Time complexity
+O(n2)
+
+2. Merge Sort
+
+Works by dividing an array in halves repeatedly, sorting the halves and then merging them to sort the array.
+
+Time complexity
+O(n log n)
+
+3. Linear Search
+
+Works by scanning through an array until the element is found.
+
+Time Complexity
+O(n)
+
+**C. Experimental Results**
+
 | Input Size  | Bubble Sort         | Merge Sort          | Search Time |
 | ----------  | ----------------    | ---------------     | ----------- |
 | 25          | 45200ns             | 29700ns             |220600ns     |
