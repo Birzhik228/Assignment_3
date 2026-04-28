@@ -12,7 +12,7 @@ public class Experiment {
         if (type.equalsIgnoreCase("bubble")) {
             sorter.basicSort(copy);
         }
-        else if (type.equalsIgnoreCase("insertion")) {
+        else if (type.equalsIgnoreCase("merge")) {
             sorter.advancedSort(copy);
         }
 
@@ -39,8 +39,8 @@ public class Experiment {
         System.out.println("\nBubble Sort Time:");
         System.out.println(measureSortTime(arr, "bubble") + " ns");
 
-        System.out.println("\nInsertion Sort Time:");
-        System.out.println(measureSortTime(arr, "insertion") + " ns");
+        System.out.println("\nMerge Sort Time:");
+        System.out.println(measureSortTime(arr, "merge") + " ns");
 
         System.out.println("\nSearch Time:");
         System.out.println(measureSearchTime(arr, target) + " ns");

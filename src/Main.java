@@ -32,11 +32,11 @@ public class Main {
             case 1:
                 System.out.println("Sorting time experiment:");
                 System.out.println("Bubble: " + experiment.measureSortTime(arr, "bubble") + " ns");
-                System.out.println("Insertion: " + experiment.measureSortTime(arr, "insertion") + " ns");
+                System.out.println("Merge: " + experiment.measureSortTime(arr, "merge") + " ns");
                 break;
 
             case 2:
-                System.out.println("Choose sorting method: bubble(1) or insertion(2)");
+                System.out.println("Choose sorting method: bubble(1) or merge(2)");
                 switch (input.nextInt()) {
                     case 1:
                         sort.basicSort(arr);
@@ -46,7 +46,7 @@ public class Main {
 
                     case 2:
                         sort.advancedSort(arr);
-                        System.out.println("Insertion sorted array:");
+                        System.out.println("Merge sorted array:");
                         sort.printArray(arr);
                         break;
                 }
