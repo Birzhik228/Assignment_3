@@ -1,5 +1,6 @@
 IT-2502
 Rukhanov Birzhan
+
 **A. Project Overview**
 
 🔹 Selected Algorithms
