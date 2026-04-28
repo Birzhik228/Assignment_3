@@ -1,6 +1,7 @@
 IT-2502
 Rukhanov Birzhan
 **A. Project Overview**
+
 🔹 Selected Algorithms
 
 This project implements and analyzes the following algorithms:
