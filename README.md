@@ -22,13 +22,14 @@ Appreciating the practical difference between O(n²) and O(n log n) algorithms
 
 | Input Size  | Bubble Sort         | Merge Sort          | Search Time |
 | ----------  | ----------------    | ---------------     | ----------- |
-| 25          | 24800ns             | 30500ns             |417000ns     |
+| 25          | 45200ns             | 29700ns             |220600ns     |
 | 50          | 338300ns            | 50500ns             |218400ns     |
 | 100         | 257300ns            | 90700ns             |212800ns     |
 | 500         | 4366000ns           | 481800ns            |246700ns     |
 
 
-<img width="1789" height="564" alt="image" src="https://github.com/user-attachments/assets/af79c8bc-c757-41ce-9f62-c2cf42572d0c" />
+<img width="1799" height="598" alt="image" src="https://github.com/user-attachments/assets/1d5711a5-b0da-4a23-9973-9bd1cfcb8418" />
+
 
 <img width="1798" height="599" alt="image" src="https://github.com/user-attachments/assets/b7c24be1-b456-4c02-8260-d56915d016dd" />
 
