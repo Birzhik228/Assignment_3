@@ -13,6 +13,9 @@ Linear Search – basic searching algorithm
 **The purposes of this experiment are:**
 
 To compare performance of various sorting algorithms
+
 Timing the execution using System.nanoTime()
+
 Understanding the change in efficiency due to input data size
+
 Appreciating the practical difference between O(n²) and O(n log n) algorithms
